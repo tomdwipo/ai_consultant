@@ -22,7 +22,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
         image_prompts_path: Path to JSON file with prompts
         output_dir: Directory to save generated images
     """
-    # Validate paths
     image_prompts_path = Path(image_prompts_path)
     output_dir = Path(output_dir)
     
@@ -31,22 +30,18 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
     
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load API key
     config = load_api_keys()
     api_key = config["together_api_key"]
 
-    # Load prompts
     with open(image_prompts_path, "r") as f:
         prompts_data = json.load(f)
     
     if "prompts" not in prompts_data or not isinstance(prompts_data["prompts"], list):
         raise ValueError("Invalid prompts format - expected {'prompts': [...]}")
 
-    # Generate images
     for i, prompt_data in enumerate(prompts_data["prompts"], 1):
         print(f"🖼️  Generating image {i}/{len(prompts_data['prompts'])}...")
         
-        # Build the prompt string from structured data
         prompt_text = (
             f"{prompt_data['subject']}, {', '.join(prompt_data['artform'])}, "
             f"shot with {prompt_data['device'][0]}, "
@@ -56,7 +51,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
             f"additional details: {prompt_data['additional_details']}"
         )
 
-        # API request
         response = requests.post(
             url="https://api.together.xyz/v1/images/generations",
             headers={
@@ -75,7 +69,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
             timeout=30
         )
 
-        # Handle response
         if response.status_code == 200:
             data = response.json()
             if "data" in data and len(data["data"]) > 0:
@@ -83,7 +76,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
                 image_response = requests.get(image_url)
                 
                 if image_response.status_code == 200:
-                    # Generate sequential filename
                     existing_files = list(output_dir.glob("*.jpeg"))
                     next_number = len(existing_files) + 1
                     image_path = output_dir / f"{next_number}.jpeg"
@@ -101,7 +93,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
             print(f"Response: {response.text}")
 
 if __name__ == "__main__":
-    # Example usage
     generate_images(
         image_prompts_path="C:\\Users\\Gabriel\\Documents\\TikTokAIVideoGenerator\\video8\\image_prompts.json",
         output_dir="generated_images"

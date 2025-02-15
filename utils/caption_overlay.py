@@ -1,4 +1,3 @@
-# utils/caption_overlay.py
 import os
 from pathlib import Path
 from typing import List, Dict
@@ -21,13 +20,10 @@ def add_captions_to_video(video_path: Path, captions_path: Path, output_path: Pa
     Add captions to the video at the specified timestamps.
     """
     try:
-        # Load video
         video = VideoFileClip(str(video_path))
 
-        # Load captions
         captions = load_captions(captions_path)
 
-        # Create text clips for each caption
         text_clips = []
         for caption in captions:
             text_clip = TextClip(
@@ -36,16 +32,14 @@ def add_captions_to_video(video_path: Path, captions_path: Path, output_path: Pa
                 color="white",
                 font="assets\\fonts\\EastmanRomanTrial-Black.otf",
                 bg_color="black",
-                size=(video.size[0], None)  # Match video width
+                size=(video.size[0], None) 
             ).set_position(("center", "bottom")) \
              .set_start(caption["start"]) \
              .set_end(caption["end"])
             text_clips.append(text_clip)
 
-        # Combine video and text clips
         final_video = CompositeVideoClip([video] + text_clips)
 
-        # Export video
         final_video.write_videofile(
             str(output_path),
             fps=24,
@@ -64,13 +58,11 @@ def main(video_path: Path, captions_path: Path, output_path: Path) -> None:
     Add captions to the video and save the final output.
     """
     try:
-        # Validate paths
         if not video_path.exists():
             raise FileNotFoundError(f"Video file {video_path} not found")
         if not captions_path.exists():
             raise FileNotFoundError(f"Captions file {captions_path} not found")
 
-        # Add captions to video
         print("\n📝 Adding captions to video...")
         add_captions_to_video(video_path, captions_path, output_path)
 

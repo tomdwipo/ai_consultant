@@ -1,4 +1,3 @@
-# script_generator.py
 import json
 from groq import Groq
 
@@ -18,14 +17,11 @@ def generate_script(topic: str, style: str, target_audience: str, cta: str) -> d
     Returns a dictionary with script and scene descriptions.
     """
     try:
-        # Load API keys
         api_keys = load_api_keys()
         groq_api_key = api_keys["groq_api_key"]
 
-        # Initialize Groq client
         client = Groq(api_key=groq_api_key)
 
-        # Craft the prompt
         prompt = f"""
         You are a creative assistant specialized in writing engaging and dynamic video scripts for TikTok. Your goal is to create scripts that maximize viewer retention. The video must:
         1. Capture attention in the first 3 seconds with a bold statement, intriguing question, or surprising fact.
@@ -61,7 +57,6 @@ def generate_script(topic: str, style: str, target_audience: str, cta: str) -> d
         5. The total duration is exactly 60 seconds.
         """
 
-        # Make API call
         completion = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[
@@ -75,7 +70,6 @@ def generate_script(topic: str, style: str, target_audience: str, cta: str) -> d
             response_format={"type": "json_object"}
         )
 
-        # Parse and validate response
         response = json.loads(completion.choices[0].message.content)
         
         if not all(key in response for key in ["script", "scenes", "total_duration"]):
@@ -96,21 +90,17 @@ def save_script(script_data: dict, output_path: str) -> None:
 
 def main():
     try:
-        # User inputs
         topic = input("Enter video topic: ")
         style = input("Enter video style (e.g., funny, educational, inspirational): ")
         target_audience = input("Enter target audience: ")
         cta = input("Enter call to action (CTA): ")
         output_path = "script.json"
 
-        # Generate script
         print("\n🚀 Generating script with Llama3...")
         script_data = generate_script(topic, style, target_audience, cta)
         
-        # Save script
         save_script(script_data, output_path)
 
-        # Print summary
         print(f"📝 Total duration: {script_data['total_duration']} seconds")
         print(f"🎬 Number of scenes: {len(script_data['scenes'])}")
 

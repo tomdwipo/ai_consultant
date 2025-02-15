@@ -1,4 +1,3 @@
-# utils/image_prompt_generator.py
 import json
 from pathlib import Path
 from groq import Groq
@@ -22,18 +21,14 @@ def generate_image_prompts(script_data: Dict) -> List[Dict]:
     Returns a list of image prompts following the specified structure.
     """
     try:
-        # Load API keys
         api_keys = load_api_keys()
         groq_api_key = api_keys["groq_api_key"]
 
-        # Initialize Groq client
         client = Groq(api_key=groq_api_key)
 
-        # Extract script elements
         scenes = script_data.get("scenes", [])
         script_text = script_data.get("script", "")
 
-        # Create explicit structured prompt
         prompt = f"""
         You are a creative assistant specialized in generating image prompts for AI image generation models. 
         Create between 18-20 image prompts based on the following video script and scenes:
@@ -76,7 +71,6 @@ def generate_image_prompts(script_data: Dict) -> List[Dict]:
         4. No markdown formatting, only pure JSON
         """
 
-        # Make API call with higher token limit
         completion = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[
@@ -90,16 +84,10 @@ def generate_image_prompts(script_data: Dict) -> List[Dict]:
             response_format={"type": "json_object"}
         )
 
-        # Parse and validate response
         response = json.loads(completion.choices[0].message.content)
         
-        # Debugging: Print raw response
-        # print("Raw API response:", json.dumps(response, indent=2))
+        prompts = response.get("prompts") or response  
         
-        # Flexible validation
-        prompts = response.get("prompts") or response  # Handle root array responses
-        
-        # Validate prompt count
         MIN_PROMPTS = 18
         MAX_PROMPTS = 25
         if not isinstance(prompts, list) or not (MIN_PROMPTS <= len(prompts) <= MAX_PROMPTS):
@@ -108,7 +96,6 @@ def generate_image_prompts(script_data: Dict) -> List[Dict]:
                 f"Expected between {MIN_PROMPTS}-{MAX_PROMPTS} prompts."
             )
             
-        # Validate individual prompt structure
         required_keys = {"subject", "artform", "phototype", "scene_details"}
         for i, prompt in enumerate(prompts):
             if not all(key in prompt for key in required_keys):
@@ -130,14 +117,11 @@ def save_image_prompts(prompts: List[Dict], output_path: Path) -> None:
 def main(script_path: Path, output_path: Path) -> None:
     """Generate and save image prompts"""
     try:
-        # Load script
         with open(script_path, "r") as f:
             script_data = json.load(f)
         
-        # Generate prompts
         prompts = generate_image_prompts(script_data)
         
-        # Save prompts
         save_image_prompts(prompts, output_path)
     
     except Exception as e:
