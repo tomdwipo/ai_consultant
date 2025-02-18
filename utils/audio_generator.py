@@ -6,7 +6,7 @@ from typing import Optional
 import edge_tts
 import asyncio
 
-def generate_audio_kokoro(text: str, output_path: Path, voice: str = "af_bella") -> bool:
+def generate_audio_kokoro(text: str, output_path: Path, voice: str = "am_michael") -> bool:
     """
     Generate audio using Kokoro TTS API.
     Returns True if successful, False otherwise.

@@ -47,7 +47,7 @@ def create_video_clip(image_folder: Path, audio_path: Path, output_path: Path) -
 
         video.write_videofile(
             str(output_path),
-            fps=24,  
+            fps=30,  
             codec="libx264",  
             audio_codec="aac", 
             threads=4  

@@ -1,3 +1,4 @@
+# utils/caption_generator.py
 import os
 import json
 from pathlib import Path
@@ -18,10 +19,11 @@ def check_ffmpeg_installed() -> bool:
     except Exception:
         return False
 
+
 def transcribe_audio_with_whisper(audio_path: Path) -> List[Dict]:
     """
-    Transcribe audio using the local Whisper base.en model.
-    Returns a list of captions with start and end times.
+    Transcribe audio using the local Whisper base.en model with native timestamping.
+    Returns a list of captions with start and end times for each word.
     """
     try:
         if not check_ffmpeg_installed():
@@ -31,18 +33,24 @@ def transcribe_audio_with_whisper(audio_path: Path) -> List[Dict]:
             )
 
         print("🔍 Loading Whisper model...")
-        model = whisper.load_model("base.en")
+        model = whisper.load_model("small.en")
 
-        print("🔍 Transcribing audio...")
-        result = model.transcribe(str(audio_path), verbose=True)
+        print("🔍 Transcribing audio with word-level timestamps...")
+        result = model.transcribe(
+            str(audio_path),
+            word_timestamps=True,  
+            language="en",         
+            temperature=0          
+        )
 
         captions = []
         for segment in result["segments"]:
-            captions.append({
-                "start": segment["start"],
-                "end": segment["end"],
-                "text": segment["text"]
-            })
+            for word in segment["words"]:
+                captions.append({
+                    "start": word["start"],
+                    "end": word["end"],
+                    "text": word["word"].strip()
+                })
 
         return captions
 
