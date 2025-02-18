@@ -34,8 +34,8 @@ Before running the project, ensure you have the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tiktok-ai-video-generator.git
-   cd tiktok-ai-video-generator
+   git clone https://github.com/GabrielLaxy/TikTokAIVideoGenerator.git
+   cd TikTokAIVideoGenerator
    ```
 
 2. Install dependencies:
