@@ -77,11 +77,7 @@ python main.py
 1. **Input Details**:
    - Enter the project folder name, video topic, style, target audience, and call-to-action (CTA).
 
-2. **Choose Option**:
-   - Select `1` for a full video (script + images + audio + captions + final video).
-   - Select `2` for a partial video (script + images + audio).
-
-3. **Generated Files**:
+2. **Generated Files**:
    - The project folder will contain:
      - `script.json`: Generated script.
      - `image_prompts.json`: Image prompts.
