@@ -49,12 +49,22 @@ def generate_script(topic: str, style: str, target_audience: str, cta: str) -> d
           "total_duration": 60
         }}
 
+        **CRITICAL INSTRUCTION:** The generated script **MUST** have between **250 and 280 tokens**. It is **ESSENTIAL** that the token count is within this range for keep the video duration arround 70 seconds.
+
         Ensure:
         1. The script is entertaining, relatable, and uses language and pacing suitable for TikTok's short-form, attention-driven format.
-        2. The script has at least 250 tokens and a maximum of 280 tokens.
+        2. **TOKEN RESTRICTION:** The generated script must have **EXACTLY** between 250 and 280 tokens. DO NOT EXCEED 280 and DO NOT GO BELOW 250.
         3. Scene descriptions can use up to 500 tokens.
         4. Each scene has a clear visual description and corresponding voiceover text.
         5. The total duration is exactly 60 seconds.
+
+        **REPEATING:** Ensure that the final script **OBLIGATORILY** has a minimum of 250 tokens and a maximum of 280 tokens. The token count **MUST** be respected.
+
+        Remember: The **TOKEN RESTRICTION** (item 1) is **CRITICAL** and must be **STRICTLY** followed.
+
+        **FINAL REVIEW:** Before finalizing, double-check **TWICE** if the script fits **PERFECTLY** within the 250 to 280 token count. This limit is **NON-NEGOTIABLE**.
+
+
         """
 
         completion = client.chat.completions.create(
@@ -71,10 +81,10 @@ def generate_script(topic: str, style: str, target_audience: str, cta: str) -> d
         )
 
         response = json.loads(completion.choices[0].message.content)
-        
+
         if not all(key in response for key in ["script", "scenes", "total_duration"]):
             raise ValueError("Invalid JSON structure from API response")
-            
+
         return response
 
     except json.JSONDecodeError:
