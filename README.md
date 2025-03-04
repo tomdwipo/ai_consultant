@@ -2,6 +2,12 @@
 
 This project is a Python-based tool for generating vertical videos optimized for platforms like TikTok, Instagram Reels, and YouTube Shorts. It uses AI models for script generation, image creation, audio synthesis, and captioning to automate the video creation process.
 
+## Example output
+<a href=".github/final_video_with_captions.mp4">
+  <img src="https://i.imgur.com/xUXDj6q.jpeg" width="20%" height="20%" alt="Assistir ao vídeo">
+</a>
+
+[Full Video](.github/final_video_with_captions.mp4)
 ---
 
 ## Features
