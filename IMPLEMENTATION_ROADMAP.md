@@ -335,25 +335,6 @@ Roadmap pengembangan AI Media Consultant Platform dalam 3 fase utama selama 18-2
 - [ ] Enterprise client acquisition
 - [ ] 99.9% uptime
 
-## 👥 Team Structure & Responsibilities
-
-### Core Team (Phase 1)
-- **1 Full-Stack Developer** - Backend API & Frontend
-- **1 AI/ML Engineer** - Agent development & optimization
-- **1 DevOps Engineer** - Infrastructure & deployment
-- **1 Product Manager** - Requirements & user feedback
-
-### Expanded Team (Phase 2)
-- **+1 Frontend Developer** - UI/UX enhancement
-- **+1 Backend Developer** - Microservices & scaling
-- **+1 QA Engineer** - Testing & quality assurance
-- **+1 Designer** - UI/UX design & templates
-
-### Full Team (Phase 3)
-- **+1 Mobile Developer** - React Native app
-- **+1 Data Engineer** - Analytics & data pipeline
-- **+1 Marketing Specialist** - User acquisition
-- **+1 Customer Success** - User support & onboarding
 
 ## 🛠️ Technology Milestones
 
@@ -380,33 +361,6 @@ Deployment: Docker + AWS EC2
 + Canva API for design
 + Multiple AI model providers
 ```
-
-## 📊 Budget Allocation
-
-### Phase 1 Budget (6 weeks)
-- **Development Team**: $60,000
-- **Infrastructure**: $5,000
-- **AI API Costs**: $3,000
-- **Tools & Services**: $2,000
-- **Total**: $70,000
-
-### Phase 2 Budget (8 weeks)
-- **Development Team**: $100,000
-- **Infrastructure**: $8,000
-- **AI API Costs**: $5,000
-- **Tools & Services**: $3,000
-- **Marketing**: $10,000
-- **Total**: $126,000
-
-### Phase 3 Budget (10 weeks)
-- **Development Team**: $150,000
-- **Infrastructure**: $15,000
-- **AI API Costs**: $10,000
-- **Tools & Services**: $5,000
-- **Marketing**: $20,000
-- **Total**: $200,000
-
-### Total Project Budget: $396,000
 
 ## ⚠️ Risk Mitigation
 
