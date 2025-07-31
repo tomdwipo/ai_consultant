@@ -70,14 +70,6 @@ AI Media Consultant adalah platform berbasis AI yang mengotomatisasi pembuatan k
 4. Select platforms
 5. Generate & download content
 
-### For Developers
-```bash
-git clone [repo-url]
-cd ai_consultant
-pip install -r requirements.txt
-python app.py
-```
-
 ## 📚 Documentation
 
 - [Business Plan](BUSINESS_PLAN.md) - Market analysis & revenue model
@@ -139,12 +131,6 @@ python app.py
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
-
-## 📞 Contact
-
-- **Email**: [your-email]
-- **LinkedIn**: [your-linkedin]
-- **Website**: [platform-url]
 
 ---
 
