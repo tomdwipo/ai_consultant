@@ -715,31 +715,6 @@ Friday: Newsletter + community engagement
 - Customer gift program
 - New Year resolution content
 
-## 💰 Marketing Budget Allocation
-
-### Annual Marketing Budget: Rp 500M
-
-#### By Channel
-- **Content Marketing**: 30% (Rp 150M)
-- **Paid Advertising**: 25% (Rp 125M)
-- **Social Media Marketing**: 15% (Rp 75M)
-- **Partnership Marketing**: 12% (Rp 60M)
-- **Email Marketing**: 8% (Rp 40M)
-- **Events & PR**: 6% (Rp 30M)
-- **Tools & Software**: 4% (Rp 20M)
-
-#### By Quarter
-- **Q1**: 20% (Rp 100M) - Foundation building
-- **Q2**: 25% (Rp 125M) - Growth acceleration
-- **Q3**: 30% (Rp 150M) - Scale optimization
-- **Q4**: 25% (Rp 125M) - Market leadership
-
-#### ROI Expectations
-- **Customer Acquisition Cost**: < Rp 150k
-- **Customer Lifetime Value**: > Rp 2.4M
-- **Marketing ROI**: 16:1 (CLV:CAC ratio)
-- **Payback Period**: < 6 months
-
 ---
 
 **This marketing strategy serves as a comprehensive roadmap for building AI Media Consultant into Indonesia's leading AI-powered content creation platform.**
