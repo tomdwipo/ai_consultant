@@ -174,6 +174,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 
-## Contact
-
-For questions or feedback, contact [gabriel_laxy@proton.me](mailto:gabriel_laxy@proton.me).
