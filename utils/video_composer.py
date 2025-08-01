@@ -4,7 +4,9 @@ from moviepy.editor import ImageSequenceClip, AudioFileClip, concatenate_videocl
 from moviepy.video.fx.all import fadein, fadeout
 from moviepy.config import change_settings
 
-change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"})
+# change_settings({"IMAGEMAGICK_BINARY": r"/Users/tommy-amarbank/Documents/startup/TikTokAIVideoGenerator/ImageMagick-7.0.10/bin/magick"})
+
+# change_settings({"IMAGEMAGICK_BINARY": r"ImageMagick-7.0.10/bin/magick"})
 
 def calculate_image_duration(audio_path: Path, num_images: int) -> float:
     """

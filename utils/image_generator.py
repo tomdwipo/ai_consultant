@@ -94,6 +94,6 @@ def generate_images(image_prompts_path: str, output_dir: str) -> None:
 
 if __name__ == "__main__":
     generate_images(
-        image_prompts_path="C:\\Users\\Gabriel\\Documents\\TikTokAIVideoGenerator\\video8\\image_prompts.json",
+        image_prompts_path="image_prompts.json",
         output_dir="generated_images"
     )
