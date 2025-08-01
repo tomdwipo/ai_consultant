@@ -1,0 +1,30 @@
+{
+  "script": "Anak susah diatur? Bisa jadi karena pola asuh ini! Pola asuh yang salah bisa membuat anak menjadi tidak patuh dan sulit diatur. Namun, dengan memahami pola asuh yang tepat, Anda bisa membantu anak menjadi lebih disiplin dan mandiri. Pola asuh otoriter, permissive, dan demokratis adalah tiga jenis pola asuh yang umum diterapkan oleh orang tua. Pola asuh otoriter yang terlalu ketat bisa membuat anak menjadi takut dan tidak berani mengambil keputusan. Sementara itu, pola asuh permissive yang terlalu longgar bisa membuat anak menjadi tidak disiplin dan tidak memiliki tujuan yang jelas. Pola asuh demokratis adalah pola asuh yang seimbang antara kebebasan dan disiplin, yang bisa membantu anak menjadi lebih mandiri dan bertanggung jawab. Ubah pola asuh, ubah masa depan anak! Follow EduHub untuk lebih banyak wawasan.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "visual_description": "Tampilan anak yang susah diatur dengan latar belakang warna merah untuk menarik perhatian",
+      "voiceover_text": "Anak susah diatur? Bisa jadi karena pola asuh ini!",
+      "duration_seconds": 3
+    },
+    {
+      "scene_number": 2,
+      "visual_description": "Ilustrasi pola asuh otoriter, permissive, dan demokratis dengan warna yang berbeda untuk membedakan masing-masing jenis pola asuh",
+      "voiceover_text": "Pola asuh otoriter, permissive, dan demokratis adalah tiga jenis pola asuh yang umum diterapkan oleh orang tua.",
+      "duration_seconds": 10
+    },
+    {
+      "scene_number": 3,
+      "visual_description": "Animasi anak yang sedang belajar dan bermain dengan latar belakang warna biru untuk menunjukkan kesan yang positif",
+      "voiceover_text": "Pola asuh demokratis adalah pola asuh yang seimbang antara kebebasan dan disiplin, yang bisa membantu anak menjadi lebih mandiri dan bertanggung jawab.",
+      "duration_seconds": 30
+    },
+    {
+      "scene_number": 4,
+      "visual_description": "Tampilan logo EduHub dengan latar belakang warna hijau untuk menunjukkan kesan yang alami dan edukatif",
+      "voiceover_text": "Ubah pola asuh, ubah masa depan anak! Follow EduHub untuk lebih banyak wawasan.",
+      "duration_seconds": 17
+    }
+  ],
+  "total_duration": 60
+}
