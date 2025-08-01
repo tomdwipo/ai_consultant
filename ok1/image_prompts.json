@@ -1,0 +1,796 @@
+{
+  "prompts": [
+    {
+      "subject": "misbehaved child",
+      "artform": [
+        "digital painting"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "home environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "centered"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "toy"
+      },
+      "photography_style": [
+        "realistic"
+      ],
+      "device": [
+        "Canon EOS 5D"
+      ],
+      "artist": [
+        "Greg Rutkowski"
+      ]
+    },
+    {
+      "subject": "puzzle pieces",
+      "artform": [
+        "3D rendering"
+      ],
+      "phototype": [
+        "wide angle"
+      ],
+      "scene_details": {
+        "place": [
+          "abstract environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "scattered"
+        ]
+      },
+      "background": [
+        "gradient background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "puzzle piece"
+      },
+      "photography_style": [
+        "surreal"
+      ],
+      "device": [
+        "NVIDIA graphics card"
+      ],
+      "artist": [
+        "Ash Thorp"
+      ]
+    },
+    {
+      "subject": "parent and child",
+      "artform": [
+        "watercolor"
+      ],
+      "phototype": [
+        "medium shot"
+      ],
+      "scene_details": {
+        "place": [
+          "park environment"
+        ],
+        "lighting": [
+          "soft"
+        ],
+        "composition": [
+          "harmonious"
+        ]
+      },
+      "background": [
+        "natural background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "hands"
+      },
+      "photography_style": [
+        "whimsical"
+      ],
+      "device": [
+        "Wacom tablet"
+      ],
+      "artist": [
+        "Loish"
+      ]
+    },
+    {
+      "subject": "brain with gears",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "macro"
+      ],
+      "scene_details": {
+        "place": [
+          "fantasy environment"
+        ],
+        "lighting": [
+          "dramatic"
+        ],
+        "composition": [
+          "complex"
+        ]
+      },
+      "background": [
+        "dark background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "gear"
+      },
+      "photography_style": [
+        "concept art"
+      ],
+      "device": [
+        "Adobe Photoshop"
+      ],
+      "artist": [
+        "Simon Stalenhag"
+      ]
+    },
+    {
+      "subject": "child with books",
+      "artform": [
+        "illustration"
+      ],
+      "phototype": [
+        "bird's eye view"
+      ],
+      "scene_details": {
+        "place": [
+          "library environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "organized"
+        ]
+      },
+      "background": [
+        "wooden background"
+      ],
+      "additional_details": {
+        "wearing": "glasses",
+        "holding": "book"
+      },
+      "photography_style": [
+        "cozy"
+      ],
+      "device": [
+        "iPad Pro"
+      ],
+      "artist": [
+        "Jillian Tamaki"
+      ]
+    },
+    {
+      "subject": "parenting styles",
+      "artform": [
+        "infographic"
+      ],
+      "phototype": [
+        "split-screen"
+      ],
+      "scene_details": {
+        "place": [
+          "comparison environment"
+        ],
+        "lighting": [
+          "neutral"
+        ],
+        "composition": [
+          "side-by-side"
+        ]
+      },
+      "background": [
+        "white background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "informative"
+      ],
+      "device": [
+        "Adobe Illustrator"
+      ],
+      "artist": [
+        "Nicholas Felton"
+      ]
+    },
+    {
+      "subject": "disciplined child",
+      "artform": [
+        "painting"
+      ],
+      "phototype": [
+        "portrait"
+      ],
+      "scene_details": {
+        "place": [
+          "home environment"
+        ],
+        "lighting": [
+          "soft"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "uniform",
+        "holding": "backpack"
+      },
+      "photography_style": [
+        "realistic"
+      ],
+      "device": [
+        "Canon EOS 80D"
+      ],
+      "artist": [
+        "James Gurney"
+      ]
+    },
+    {
+      "subject": "democratic parenting",
+      "artform": [
+        "digital painting"
+      ],
+      "phototype": [
+        "wide angle"
+      ],
+      "scene_details": {
+        "place": [
+          "community environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "inclusive"
+        ]
+      },
+      "background": [
+        "natural background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "hands"
+      },
+      "photography_style": [
+        "inspirational"
+      ],
+      "device": [
+        "Wacom Cintiq"
+      ],
+      "artist": [
+        "Noah Bradley"
+      ]
+    },
+    {
+      "subject": "child's future",
+      "artform": [
+        "concept art"
+      ],
+      "phototype": [
+        "bird's eye view"
+      ],
+      "scene_details": {
+        "place": [
+          "city environment"
+        ],
+        "lighting": [
+          "dramatic"
+        ],
+        "composition": [
+          "aspirational"
+        ]
+      },
+      "background": [
+        "cityscape background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "futuristic"
+      ],
+      "device": [
+        "Adobe Photoshop"
+      ],
+      "artist": [
+        "Syd Mead"
+      ]
+    },
+    {
+      "subject": "parent and child reading",
+      "artform": [
+        "watercolor"
+      ],
+      "phototype": [
+        "medium shot"
+      ],
+      "scene_details": {
+        "place": [
+          "cozy environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "intimate"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "book"
+      },
+      "photography_style": [
+        "heartwarming"
+      ],
+      "device": [
+        "Wacom tablet"
+      ],
+      "artist": [
+        "Christian Robinson"
+      ]
+    },
+    {
+      "subject": "growth mindset",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "abstract environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "gradient background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "inspirational"
+      ],
+      "device": [
+        "Adobe Illustrator"
+      ],
+      "artist": [
+        "Lisa Congdon"
+      ]
+    },
+    {
+      "subject": "child with mentor",
+      "artform": [
+        "painting"
+      ],
+      "phototype": [
+        "portrait"
+      ],
+      "scene_details": {
+        "place": [
+          "outdoor environment"
+        ],
+        "lighting": [
+          "natural"
+        ],
+        "composition": [
+          "guiding"
+        ]
+      },
+      "background": [
+        "natural background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "hands"
+      },
+      "photography_style": [
+        "realistic"
+      ],
+      "device": [
+        "Canon EOS 5D"
+      ],
+      "artist": [
+        "Thomas Kinkade"
+      ]
+    },
+    {
+      "subject": "parenting community",
+      "artform": [
+        "illustration"
+      ],
+      "phototype": [
+        "wide angle"
+      ],
+      "scene_details": {
+        "place": [
+          "community environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "inclusive"
+        ]
+      },
+      "background": [
+        "natural background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "hands"
+      },
+      "photography_style": [
+        "whimsical"
+      ],
+      "device": [
+        "iPad Pro"
+      ],
+      "artist": [
+        "Cynthia Sheppard"
+      ]
+    },
+    {
+      "subject": "child's imagination",
+      "artform": [
+        "concept art"
+      ],
+      "phototype": [
+        "bird's eye view"
+      ],
+      "scene_details": {
+        "place": [
+          "fantasy environment"
+        ],
+        "lighting": [
+          "dramatic"
+        ],
+        "composition": [
+          "aspirational"
+        ]
+      },
+      "background": [
+        "dreamscape background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "surreal"
+      ],
+      "device": [
+        "Adobe Photoshop"
+      ],
+      "artist": [
+        "Ralph McQuarrie"
+      ]
+    },
+    {
+      "subject": "democratic parenting symbol",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "abstract environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "gradient background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "conceptual"
+      ],
+      "device": [
+        "Adobe Illustrator"
+      ],
+      "artist": [
+        "Olaf Hector"
+      ]
+    },
+    {
+      "subject": "parent and child playing",
+      "artform": [
+        "watercolor"
+      ],
+      "phototype": [
+        "medium shot"
+      ],
+      "scene_details": {
+        "place": [
+          "park environment"
+        ],
+        "lighting": [
+          "soft"
+        ],
+        "composition": [
+          "playful"
+        ]
+      },
+      "background": [
+        "natural background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "toy"
+      },
+      "photography_style": [
+        "whimsical"
+      ],
+      "device": [
+        "Wacom tablet"
+      ],
+      "artist": [
+        "LeUyen Pham"
+      ]
+    },
+    {
+      "subject": "child's potential",
+      "artform": [
+        "painting"
+      ],
+      "phototype": [
+        "portrait"
+      ],
+      "scene_details": {
+        "place": [
+          "home environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "none"
+      },
+      "photography_style": [
+        "realistic"
+      ],
+      "device": [
+        "Canon EOS 80D"
+      ],
+      "artist": [
+        "Norman Rockwell"
+      ]
+    },
+    {
+      "subject": "parenting styles comparison",
+      "artform": [
+        "infographic"
+      ],
+      "phototype": [
+        "split-screen"
+      ],
+      "scene_details": {
+        "place": [
+          "comparison environment"
+        ],
+        "lighting": [
+          "neutral"
+        ],
+        "composition": [
+          "side-by-side"
+        ]
+      },
+      "background": [
+        "white background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "informative"
+      ],
+      "device": [
+        "Adobe Illustrator"
+      ],
+      "artist": [
+        "Nicholas Felton"
+      ]
+    },
+    {
+      "subject": "EduHub logo",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "abstract environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "gradient background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "conceptual"
+      ],
+      "device": [
+        "Adobe Photoshop"
+      ],
+      "artist": [
+        "Beeple"
+      ]
+    },
+    {
+      "subject": "parent and child hugging",
+      "artform": [
+        "watercolor"
+      ],
+      "phototype": [
+        "medium shot"
+      ],
+      "scene_details": {
+        "place": [
+          "cozy environment"
+        ],
+        "lighting": [
+          "warm"
+        ],
+        "composition": [
+          "intimate"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "hands"
+      },
+      "photography_style": [
+        "heartwarming"
+      ],
+      "device": [
+        "Wacom tablet"
+      ],
+      "artist": [
+        "Christian Robinson"
+      ]
+    },
+    {
+      "subject": "child's future self",
+      "artform": [
+        "concept art"
+      ],
+      "phototype": [
+        "bird's eye view"
+      ],
+      "scene_details": {
+        "place": [
+          "city environment"
+        ],
+        "lighting": [
+          "dramatic"
+        ],
+        "composition": [
+          "aspirational"
+        ]
+      },
+      "background": [
+        "cityscape background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "futuristic"
+      ],
+      "device": [
+        "Adobe Photoshop"
+      ],
+      "artist": [
+        "Syd Mead"
+      ]
+    },
+    {
+      "subject": "democratic parenting book",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "abstract environment"
+        ],
+        "lighting": [
+          "bright"
+        ],
+        "composition": [
+          "focused"
+        ]
+      },
+      "background": [
+        "gradient background"
+      ],
+      "additional_details": {
+        "wearing": "none",
+        "holding": "none"
+      },
+      "photography_style": [
+        "conceptual"
+      ],
+      "device": [
+        "Adobe Illustrator"
+      ],
+      "artist": [
+        "Olaf Hector"
+      ]
+    }
+  ]
+}
