@@ -1,0 +1,532 @@
+[
+  {
+    "start": 0.0,
+    "end": 0.5,
+    "text": "Anak"
+  },
+  {
+    "start": 0.5,
+    "end": 0.9,
+    "text": "Susa"
+  },
+  {
+    "start": 0.9,
+    "end": 1.68,
+    "text": "Dieter"
+  },
+  {
+    "start": 1.68,
+    "end": 3.02,
+    "text": "Baysajati"
+  },
+  {
+    "start": 3.02,
+    "end": 3.46,
+    "text": "Karina"
+  },
+  {
+    "start": 3.46,
+    "end": 3.82,
+    "text": "Pola"
+  },
+  {
+    "start": 3.82,
+    "end": 4.14,
+    "text": "Asu"
+  },
+  {
+    "start": 4.14,
+    "end": 5.2,
+    "text": "Einie"
+  },
+  {
+    "start": 5.2,
+    "end": 5.84,
+    "text": "Pola"
+  },
+  {
+    "start": 5.84,
+    "end": 6.2,
+    "text": "Asu"
+  },
+  {
+    "start": 6.2,
+    "end": 6.44,
+    "text": "Yang"
+  },
+  {
+    "start": 6.44,
+    "end": 6.82,
+    "text": "Sulla"
+  },
+  {
+    "start": 6.82,
+    "end": 7.24,
+    "text": "Baysa"
+  },
+  {
+    "start": 7.24,
+    "end": 7.66,
+    "text": "Membuat"
+  },
+  {
+    "start": 7.66,
+    "end": 8.02,
+    "text": "Anak"
+  },
+  {
+    "start": 8.02,
+    "end": 8.56,
+    "text": "Minjati"
+  },
+  {
+    "start": 8.56,
+    "end": 9.08,
+    "text": "Sullit"
+  },
+  {
+    "start": 9.08,
+    "end": 9.52,
+    "text": "Dieter"
+  },
+  {
+    "start": 9.52,
+    "end": 9.8,
+    "text": "Dan"
+  },
+  {
+    "start": 9.8,
+    "end": 10.26,
+    "text": "Tydak"
+  },
+  {
+    "start": 10.26,
+    "end": 10.92,
+    "text": "Patu"
+  },
+  {
+    "start": 10.92,
+    "end": 12.12,
+    "text": "Sulla"
+  },
+  {
+    "start": 12.12,
+    "end": 12.72,
+    "text": "Suttapola"
+  },
+  {
+    "start": 12.72,
+    "end": 13.16,
+    "text": "Asu"
+  },
+  {
+    "start": 13.16,
+    "end": 13.44,
+    "text": "Yang"
+  },
+  {
+    "start": 13.44,
+    "end": 13.86,
+    "text": "Sulla"
+  },
+  {
+    "start": 13.86,
+    "end": 14.2,
+    "text": "Adela"
+  },
+  {
+    "start": 14.2,
+    "end": 14.68,
+    "text": "Pola"
+  },
+  {
+    "start": 14.68,
+    "end": 15.0,
+    "text": "Asu"
+  },
+  {
+    "start": 15.0,
+    "end": 15.76,
+    "text": "Otoridur"
+  },
+  {
+    "start": 15.76,
+    "end": 16.46,
+    "text": "Demana"
+  },
+  {
+    "start": 16.46,
+    "end": 16.82,
+    "text": "Orang"
+  },
+  {
+    "start": 16.82,
+    "end": 18.08,
+    "text": "Tuaturlalukotat"
+  },
+  {
+    "start": 18.08,
+    "end": 18.36,
+    "text": "Dan"
+  },
+  {
+    "start": 18.36,
+    "end": 18.86,
+    "text": "Tydak"
+  },
+  {
+    "start": 18.86,
+    "end": 19.48,
+    "text": "Memberican"
+  },
+  {
+    "start": 19.48,
+    "end": 20.2,
+    "text": "Kebabasan"
+  },
+  {
+    "start": 20.2,
+    "end": 20.54,
+    "text": "Kepada"
+  },
+  {
+    "start": 20.54,
+    "end": 21.28,
+    "text": "Anak"
+  },
+  {
+    "start": 21.28,
+    "end": 22.4,
+    "text": "Pola"
+  },
+  {
+    "start": 22.4,
+    "end": 23.18,
+    "text": "Asusapurdi"
+  },
+  {
+    "start": 23.18,
+    "end": 23.54,
+    "text": "Einie"
+  },
+  {
+    "start": 23.54,
+    "end": 23.92,
+    "text": "Baysa"
+  },
+  {
+    "start": 23.92,
+    "end": 24.3,
+    "text": "Membuat"
+  },
+  {
+    "start": 24.3,
+    "end": 24.66,
+    "text": "Anak"
+  },
+  {
+    "start": 24.66,
+    "end": 25.16,
+    "text": "Minjati"
+  },
+  {
+    "start": 25.16,
+    "end": 25.58,
+    "text": "Takut"
+  },
+  {
+    "start": 25.58,
+    "end": 25.88,
+    "text": "Dan"
+  },
+  {
+    "start": 25.88,
+    "end": 26.32,
+    "text": "Tydak"
+  },
+  {
+    "start": 26.32,
+    "end": 26.82,
+    "text": "Burani"
+  },
+  {
+    "start": 26.82,
+    "end": 27.38,
+    "text": "Mangambil"
+  },
+  {
+    "start": 27.38,
+    "end": 28.12,
+    "text": "Keputusan"
+  },
+  {
+    "start": 28.12,
+    "end": 28.64,
+    "text": "Sindiri"
+  },
+  {
+    "start": 29.64,
+    "end": 30.18,
+    "text": "Dcc"
+  },
+  {
+    "start": 30.18,
+    "end": 30.56,
+    "text": "Lane"
+  },
+  {
+    "start": 30.56,
+    "end": 31.36,
+    "text": "Pola"
+  },
+  {
+    "start": 31.36,
+    "end": 31.66,
+    "text": "Asu"
+  },
+  {
+    "start": 31.66,
+    "end": 31.96,
+    "text": "Yang"
+  },
+  {
+    "start": 31.96,
+    "end": 32.52,
+    "text": "Tirlalu"
+  },
+  {
+    "start": 32.52,
+    "end": 32.9,
+    "text": "Permissive"
+  },
+  {
+    "start": 32.9,
+    "end": 33.3,
+    "text": "Juga"
+  },
+  {
+    "start": 33.3,
+    "end": 33.74,
+    "text": "Baysa"
+  },
+  {
+    "start": 33.74,
+    "end": 34.22,
+    "text": "Membuat"
+  },
+  {
+    "start": 34.22,
+    "end": 34.54,
+    "text": "Anak"
+  },
+  {
+    "start": 34.54,
+    "end": 35.08,
+    "text": "Minjati"
+  },
+  {
+    "start": 35.08,
+    "end": 35.56,
+    "text": "Sullit"
+  },
+  {
+    "start": 35.56,
+    "end": 36.12,
+    "text": "Dieter"
+  },
+  {
+    "start": 36.12,
+    "end": 36.78,
+    "text": "Karina"
+  },
+  {
+    "start": 36.78,
+    "end": 37.16,
+    "text": "Anak"
+  },
+  {
+    "start": 37.16,
+    "end": 37.62,
+    "text": "Tydak"
+  },
+  {
+    "start": 37.62,
+    "end": 38.2,
+    "text": "Memeliki"
+  },
+  {
+    "start": 38.2,
+    "end": 38.62,
+    "text": "Baddison"
+  },
+  {
+    "start": 38.62,
+    "end": 38.96,
+    "text": "Yang"
+  },
+  {
+    "start": 38.96,
+    "end": 39.98,
+    "text": "Jilas"
+  },
+  {
+    "start": 39.98,
+    "end": 41.16,
+    "text": "Makadari"
+  },
+  {
+    "start": 41.16,
+    "end": 41.86,
+    "text": "Itu"
+  },
+  {
+    "start": 41.86,
+    "end": 42.6,
+    "text": "Pentang"
+  },
+  {
+    "start": 42.6,
+    "end": 43.0,
+    "text": "Bagi"
+  },
+  {
+    "start": 43.0,
+    "end": 43.38,
+    "text": "Orang"
+  },
+  {
+    "start": 43.38,
+    "end": 43.78,
+    "text": "Tuat"
+  },
+  {
+    "start": 43.78,
+    "end": 44.14,
+    "text": "Untuck"
+  },
+  {
+    "start": 44.14,
+    "end": 44.76,
+    "text": "Menemukun"
+  },
+  {
+    "start": 44.76,
+    "end": 45.14,
+    "text": "Pola"
+  },
+  {
+    "start": 45.14,
+    "end": 45.44,
+    "text": "Asu"
+  },
+  {
+    "start": 45.44,
+    "end": 45.78,
+    "text": "Yang"
+  },
+  {
+    "start": 45.78,
+    "end": 46.18,
+    "text": "Tepat"
+  },
+  {
+    "start": 46.18,
+    "end": 46.5,
+    "text": "Dan"
+  },
+  {
+    "start": 46.5,
+    "end": 46.959999999999994,
+    "text": "Seimbang"
+  },
+  {
+    "start": 47.16,
+    "end": 47.76,
+    "text": "Agar"
+  },
+  {
+    "start": 47.76,
+    "end": 48.14,
+    "text": "Anak"
+  },
+  {
+    "start": 48.14,
+    "end": 48.52,
+    "text": "Dipat"
+  },
+  {
+    "start": 48.52,
+    "end": 48.94,
+    "text": "Tumbu"
+  },
+  {
+    "start": 48.94,
+    "end": 49.22,
+    "text": "Dan"
+  },
+  {
+    "start": 49.22,
+    "end": 49.82,
+    "text": "Burkembang"
+  },
+  {
+    "start": 49.82,
+    "end": 50.84,
+    "text": "Danganbake"
+  },
+  {
+    "start": 50.84,
+    "end": 51.82,
+    "text": "Yuba"
+  },
+  {
+    "start": 51.82,
+    "end": 52.28,
+    "text": "Pola"
+  },
+  {
+    "start": 52.28,
+    "end": 52.7,
+    "text": "Asu"
+  },
+  {
+    "start": 52.7,
+    "end": 53.1,
+    "text": "Yuba"
+  },
+  {
+    "start": 53.1,
+    "end": 53.56,
+    "text": "Masa"
+  },
+  {
+    "start": 53.56,
+    "end": 54.34,
+    "text": "Depinanak"
+  },
+  {
+    "start": 54.34,
+    "end": 55.52,
+    "text": "Follow"
+  },
+  {
+    "start": 55.52,
+    "end": 56.06,
+    "text": "edu"
+  },
+  {
+    "start": 56.06,
+    "end": 56.26,
+    "text": "hub"
+  },
+  {
+    "start": 56.26,
+    "end": 56.72,
+    "text": "untuck"
+  },
+  {
+    "start": 56.72,
+    "end": 58.02,
+    "text": "Lebibanyakwawazan"
+  }
+]

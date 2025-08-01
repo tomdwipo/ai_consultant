@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "subject": "child playing",
+      "artform": [
+        "digital painting"
+      ],
+      "phototype": [
+        "close-up"
+      ],
+      "scene_details": {
+        "place": [
+          "indoor playground"
+        ],
+        "lighting": [
+          "softbox"
+        ],
+        "composition": [
+          "centered"
+        ]
+      },
+      "background": [
+        "blurred background"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "toy"
+      },
+      "photography_style": [
+        "portrait photography"
+      ],
+      "device": [
+        "Canon EOS 5D"
+      ],
+      "artist": [
+        "Norman Rockwell"
+      ]
+    },
+    {
+      "subject": "parent and child interaction",
+      "artform": [
+        "illustration"
+      ],
+      "phototype": [
+        "medium shot"
+      ],
+      "scene_details": {
+        "place": [
+          "living room"
+        ],
+        "lighting": [
+          "warm lighting"
+        ],
+        "composition": [
+          "symmetrical"
+        ]
+      },
+      "background": [
+        "shallow depth of field"
+      ],
+      "additional_details": {
+        "wearing": "formal attire",
+        "holding": "book"
+      },
+      "photography_style": [
+        "lifestyle photography"
+      ],
+      "device": [
+        "Nikon D850"
+      ],
+      "artist": [
+        "Pablo Picasso"
+      ]
+    },
+    {
+      "subject": "child with worried expression",
+      "artform": [
+        "photorealism"
+      ],
+      "phototype": [
+        "macro"
+      ],
+      "scene_details": {
+        "place": [
+          "outdoor park"
+        ],
+        "lighting": [
+          "natural lighting"
+        ],
+        "composition": [
+          "rule of thirds"
+        ]
+      },
+      "background": [
+        "depth of field"
+      ],
+      "additional_details": {
+        "wearing": "school uniform",
+        "holding": "backpack"
+      },
+      "photography_style": [
+        "documentary photography"
+      ],
+      "device": [
+        "Sony Alpha 7R"
+      ],
+      "artist": [
+        "Ansel Adams"
+      ]
+    },
+    {
+      "subject": "parent with strict expression",
+      "artform": [
+        "digital art"
+      ],
+      "phototype": [
+        "low-angle shot"
+      ],
+      "scene_details": {
+        "place": [
+          "office"
+        ],
+        "lighting": [
+          "cool lighting"
+        ],
+        "composition": [
+          "leading lines"
+        ]
+      },
+      "background": [
+        "high contrast"
+      ],
+      "additional_details": {
+        "wearing": "business attire",
+        "holding": "file"
+      },
+      "photography_style": [
+        "fine art photography"
+      ],
+      "device": [
+        "Fujifilm X-T3"
+      ],
+      "artist": [
+        "Vincent van Gogh"
+      ]
+    },
+    {
+      "subject": "child with happy expression",
+      "artform": [
+        "watercolor"
+      ],
+      "phototype": [
+        "bird's eye view"
+      ],
+      "scene_details": {
+        "place": [
+          "amusement park"
+        ],
+        "lighting": [
+          "vibrant lighting"
+        ],
+        "composition": [
+          "framing"
+        ]
+      },
+      "background": [
+        "soft focus"
+      ],
+      "additional_details": {
+        "wearing": "party hat",
+        "holding": "balloon"
+      },
+      "photography_style": [
+        "street photography"
+      ],
+      "device": [
+        "Olympus OM-D"
+      ],
+      "artist": [
+        "Claude Monet"
+      ]
+    },
+    {
+      "subject": "parent and child playing",
+      "artform": [
+        "acrylic painting"
+      ],
+      "phototype": [
+        "over-the-shoulder shot"
+      ],
+      "scene_details": {
+        "place": [
+          "beach"
+        ],
+        "lighting": [
+          "golden hour"
+        ],
+        "composition": [
+          "radial symmetry"
+        ]
+      },
+      "background": [
+        "panoramic view"
+      ],
+      "additional_details": {
+        "wearing": "swimwear",
+        "holding": "beach ball"
+      },
+      "photography_style": [
+        "sports photography"
+      ],
+      "device": [
+        "Panasonic Lumix"
+      ],
+      "artist": [
+        "Johannes Vermeer"
+      ]
+    },
+    {
+      "subject": "child with curious expression",
+      "artform": [
+        "mixed media"
+      ],
+      "phototype": [
+        "point-of-view shot"
+      ],
+      "scene_details": {
+        "place": [
+          "library"
+        ],
+        "lighting": [
+          "dim lighting"
+        ],
+        "composition": [
+          "visual weight"
+        ]
+      },
+      "background": [
+        "bokeh"
+      ],
+      "additional_details": {
+        "wearing": "glasses",
+        "holding": "book"
+      },
+      "photography_style": [
+        "still life photography"
+      ],
+      "device": [
+        "Leica M11"
+      ],
+      "artist": [
+        "Rene Magritte"
+      ]
+    },
+    {
+      "subject": "parent with nurturing expression",
+      "artform": [
+        "oil painting"
+      ],
+      "phototype": [
+        "two-shot"
+      ],
+      "scene_details": {
+        "place": [
+          "nursery"
+        ],
+        "lighting": [
+          "warm glow"
+        ],
+        "composition": [
+          "harmony"
+        ]
+      },
+      "background": [
+        "gradient"
+      ],
+      "additional_details": {
+        "wearing": "nurse uniform",
+        "holding": "baby"
+      },
+      "photography_style": [
+        "portrait photography"
+      ],
+      "device": [
+        "Hasselblad"
+      ],
+      "artist": [
+        "Mary Cassatt"
+      ]
+    },
+    {
+      "subject": "child with confident expression",
+      "artform": [
+        "charcoal drawing"
+      ],
+      "phototype": [
+        "establishing shot"
+      ],
+      "scene_details": {
+        "place": [
+          "school"
+        ],
+        "lighting": [
+          "bright lighting"
+        ],
+        "composition": [
+          "balance"
+        ]
+      },
+      "background": [
+        "depth of field"
+      ],
+      "additional_details": {
+        "wearing": "school uniform",
+        "holding": "pencil"
+      },
+      "photography_style": [
+        "documentary photography"
+      ],
+      "device": [
+        "Canon EOS 1D"
+      ],
+      "artist": [
+        "Egon Schiele"
+      ]
+    },
+    {
+      "subject": "parent and child hugging",
+      "artform": [
+        "pastel drawing"
+      ],
+      "phototype": [
+        "reaction shot"
+      ],
+      "scene_details": {
+        "place": [
+          "park"
+        ],
+        "lighting": [
+          "softbox"
+        ],
+        "composition": [
+          "unity"
+        ]
+      },
+      "background": [
+        "watercolor"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "flowers"
+      },
+      "photography_style": [
+        "lifestyle photography"
+      ],
+      "device": [
+        "Nikon D750"
+      ],
+      "artist": [
+        "Paul Cezanne"
+      ]
+    },
+    {
+      "subject": "child with excited expression",
+      "artform": [
+        "gouache painting"
+      ],
+      "phototype": [
+        "cutaway shot"
+      ],
+      "scene_details": {
+        "place": [
+          "carnival"
+        ],
+        "lighting": [
+          "colorful lighting"
+        ],
+        "composition": [
+          "visual flow"
+        ]
+      },
+      "background": [
+        "abstract"
+      ],
+      "additional_details": {
+        "wearing": "costume",
+        "holding": "cotton candy"
+      },
+      "photography_style": [
+        "event photography"
+      ],
+      "device": [
+        "Sony Alpha 9"
+      ],
+      "artist": [
+        "Wassily Kandinsky"
+      ]
+    },
+    {
+      "subject": "parent with patient expression",
+      "artform": [
+        "ink drawing"
+      ],
+      "phototype": [
+        "insert shot"
+      ],
+      "scene_details": {
+        "place": [
+          "home"
+        ],
+        "lighting": [
+          "natural lighting"
+        ],
+        "composition": [
+          "emphasis"
+        ]
+      },
+      "background": [
+        "texture"
+      ],
+      "additional_details": {
+        "wearing": "apron",
+        "holding": "cooking utensils"
+      },
+      "photography_style": [
+        "still life photography"
+      ],
+      "device": [
+        "Fujifilm X100F"
+      ],
+      "artist": [
+        "Henri Matisse"
+      ]
+    },
+    {
+      "subject": "child with thoughtful expression",
+      "artform": [
+        "colored pencils"
+      ],
+      "phototype": [
+        "montage"
+      ],
+      "scene_details": {
+        "place": [
+          "garden"
+        ],
+        "lighting": [
+          "warm lighting"
+        ],
+        "composition": [
+          "harmony"
+        ]
+      },
+      "background": [
+        "pattern"
+      ],
+      "additional_details": {
+        "wearing": "garden hat",
+        "holding": "flowers"
+      },
+      "photography_style": [
+        "fine art photography"
+      ],
+      "device": [
+        "Olympus OM-D E-M1"
+      ],
+      "artist": [
+        "Georgia O'Keeffe"
+      ]
+    },
+    {
+      "subject": "parent and child reading",
+      "artform": [
+        "watercolor painting"
+      ],
+      "phototype": [
+        "dutch angle"
+      ],
+      "scene_details": {
+        "place": [
+          "library"
+        ],
+        "lighting": [
+          "soft lighting"
+        ],
+        "composition": [
+          "balance"
+        ]
+      },
+      "background": [
+        "atmospheric perspective"
+      ],
+      "additional_details": {
+        "wearing": "reading glasses",
+        "holding": "book"
+      },
+      "photography_style": [
+        "portrait photography"
+      ],
+      "device": [
+        "Canon EOS 80D"
+      ],
+      "artist": [
+        "Andrew Wyeth"
+      ]
+    },
+    {
+      "subject": "child with determined expression",
+      "artform": [
+        "mixed media collage"
+      ],
+      "phototype": [
+        "point-of-view shot"
+      ],
+      "scene_details": {
+        "place": [
+          "studio"
+        ],
+        "lighting": [
+          "dramatic lighting"
+        ],
+        "composition": [
+          "visual weight"
+        ]
+      },
+      "background": [
+        "gradients"
+      ],
+      "additional_details": {
+        "wearing": "artist beret",
+        "holding": "paintbrush"
+      },
+      "photography_style": [
+        "fine art photography"
+      ],
+      "device": [
+        "Nikon D850"
+      ],
+      "artist": [
+        "Pablo Picasso"
+      ]
+    },
+    {
+      "subject": "parent with supportive expression",
+      "artform": [
+        "charcoal sketch"
+      ],
+      "phototype": [
+        "over-the-shoulder shot"
+      ],
+      "scene_details": {
+        "place": [
+          "park"
+        ],
+        "lighting": [
+          "natural lighting"
+        ],
+        "composition": [
+          "unity"
+        ]
+      },
+      "background": [
+        "depth of field"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "frisbee"
+      },
+      "photography_style": [
+        "lifestyle photography"
+      ],
+      "device": [
+        "Sony Alpha 7R"
+      ],
+      "artist": [
+        "Mary Cassatt"
+      ]
+    },
+    {
+      "subject": "child with happy expression",
+      "artform": [
+        "oil painting"
+      ],
+      "phototype": [
+        "establishing shot"
+      ],
+      "scene_details": {
+        "place": [
+          "amusement park"
+        ],
+        "lighting": [
+          "colorful lighting"
+        ],
+        "composition": [
+          "visual flow"
+        ]
+      },
+      "background": [
+        "panoramic view"
+      ],
+      "additional_details": {
+        "wearing": "party hat",
+        "holding": "balloon"
+      },
+      "photography_style": [
+        "event photography"
+      ],
+      "device": [
+        "Canon EOS 5D"
+      ],
+      "artist": [
+        "Claude Monet"
+      ]
+    },
+    {
+      "subject": "parent and child hugging",
+      "artform": [
+        "pastel drawing"
+      ],
+      "phototype": [
+        "reaction shot"
+      ],
+      "scene_details": {
+        "place": [
+          "home"
+        ],
+        "lighting": [
+          "warm glow"
+        ],
+        "composition": [
+          "harmony"
+        ]
+      },
+      "background": [
+        "watercolor"
+      ],
+      "additional_details": {
+        "wearing": "casual clothes",
+        "holding": "flowers"
+      },
+      "photography_style": [
+        "lifestyle photography"
+      ],
+      "device": [
+        "Nikon D750"
+      ],
+      "artist": [
+        "Paul Cezanne"
+      ]
+    },
+    {
+      "subject": "child with curious expression",
+      "artform": [
+        "gouache painting"
+      ],
+      "phototype": [
+        "cutaway shot"
+      ],
+      "scene_details": {
+        "place": [
+          "museum"
+        ],
+        "lighting": [
+          "dim lighting"
+        ],
+        "composition": [
+          "visual weight"
+        ]
+      },
+      "background": [
+        "abstract"
+      ],
+      "additional_details": {
+        "wearing": "glasses",
+        "holding": "museum map"
+      },
+      "photography_style": [
+        "still life photography"
+      ],
+      "device": [
+        "Sony Alpha 9"
+      ],
+      "artist": [
+        "Wassily Kandinsky"
+      ]
+    },
+    {
+      "subject": "parent with patient expression",
+      "artform": [
+        "ink drawing"
+      ],
+      "phototype": [
+        "insert shot"
+      ],
+      "scene_details": {
+        "place": [
+          "kitchen"
+        ],
+        "lighting": [
+          "natural lighting"
+        ],
+        "composition": [
+          "emphasis"
+        ]
+      },
+      "background": [
+        "texture"
+      ],
+      "additional_details": {
+        "wearing": "apron",
+        "holding": "cooking utensils"
+      },
+      "photography_style": [
+        "still life photography"
+      ],
+      "device": [
+        "Fujifilm X100F"
+      ],
+      "artist": [
+        "Henri Matisse"
+      ]
+    }
+  ]
+}

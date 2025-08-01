@@ -5,7 +5,7 @@ import json
 from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
 from moviepy.config import change_settings
 
-change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe"})
+# change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe"})
 
 def load_captions(captions_path: Path) -> List[Dict]:
     """Load captions from a JSON file."""
@@ -108,7 +108,7 @@ def main(video_path: Path, captions_path: Path, output_path: Path) -> None:
         if not captions_path.exists():
             raise FileNotFoundError(f"Captions file {captions_path} not found")
 
-        print("\n📝 Adding captions to video...")
+        print("\n📝LAidng  captions tovideo...")
         add_captions_to_video(video_path, captions_path, output_path)
 
     except Exception as e:
